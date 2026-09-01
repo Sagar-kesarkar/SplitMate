@@ -1,0 +1,47 @@
+# Local cleanup archive
+/local-archive/
+
+# APK distribution files
+/dist/
+/releases/
+*.apk
+*.aab
+
+# Android and Gradle output
+.gradle/
+.kotlin/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local Android configuration
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+*.pem
+*.p12
+service-account*.json
+
+# JavaScript tooling (legacy/local experiments)
+node_modules/
+
+# Temporary and operating-system files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local implementation artifacts
+/.artifacts/
